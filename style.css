@@ -1,0 +1,31 @@
+body {
+  box-sizing: border-box;
+}
+body * {
+  outline: 1px dotted olivedrab;
+}
+
+header {
+  width: 960px;
+  height: 100px;
+  overflow: hidden;
+  background-color: orangered;
+}
+
+header > img {
+  float: left;
+  clear: left;
+  display: block;
+  width: 50%;
+}
+
+header > section {
+  float: left;
+  width: 50%;
+}
+
+header > section > section {
+  float: right;
+  width: 50%;
+  margin-right: 180px;
+}
