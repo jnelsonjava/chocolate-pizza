@@ -1,15 +1,14 @@
-body {
-  box-sizing: border-box;
-}
 body * {
-  outline: 1px dotted olivedrab;
+  box-sizing: border-box;
+  /* outline: 1px dotted olivedrab; */
 }
 
 header {
   width: 960px;
+  margin: auto;
   height: 100px;
   overflow: hidden;
-  background-color: orangered;
+  /* background-color: orangered; */
 }
 
 header > img {
@@ -22,6 +21,7 @@ header > img {
 header > section {
   float: left;
   width: 50%;
+  margin-top: 10px;
 }
 
 header > section > section {
@@ -29,3 +29,133 @@ header > section > section {
   width: 50%;
   margin-right: 180px;
 }
+
+header > section > ul {
+  padding-top: 15px;
+}
+
+#logos1 {
+  display: inline;
+  float: left;
+  margin-left: 250px;
+}
+
+#logos1 li {
+  width: 25px;
+  display: inline;
+  /* padding: 0 2px; */
+}
+
+
+#logos2 {
+  display: inline;
+  float: right;
+}
+
+#logos2 li {
+  width: 25px;
+  display: inline;
+}
+
+hr.slashes {
+  background-image: url(/img/hr-img.png);
+  background-repeat: repeat;
+  height: 10px;
+  margin-top: 80px;
+  border: none;
+}
+
+main {
+  width: 960px;
+  margin: auto;
+}
+
+#titles:first-child {
+  margin-top: 40px;
+}
+
+#titles > h2 {
+  font-size: 55px;
+  float: left;
+  width: 960px;
+}
+
+#titles > p {
+  width: 48%;
+  float: left;
+}
+
+#titles > a {
+  float: right;
+  width: 7%;
+  text-align: right;
+  padding-right: 1px;
+}
+
+#imgAndP > img {
+  margin: 30px 0;
+  width: 960px;
+}
+
+#imgAndP > p {
+  width: 960px;
+  text-indent: 30px;
+}
+
+#p2 {
+  margin: 30px 0;
+}
+
+#recipeList {
+  background-image: url(/img/list-bg.png);
+  background-repeat: no-repeat;
+  background-size: 960px;
+  overflow: hidden;
+  height: 326px;
+  margin-top: 30px;
+}
+
+#recipeList ul {
+  width: 50%;
+  float: left;
+  list-style-type: square;
+  /* list-style-position: inside; */
+  margin-top: 38px;
+  padding-left: 90px;
+}
+
+#recipeList li {
+  font-size: 26px;
+  padding: 4px 0 3px 0;
+}
+
+#lowerHr {
+  margin-top: 40px;
+}
+
+#author img {
+  float: left;
+}
+
+#author h3, p {
+  width: 700px;
+}
+
+button {
+  width: 100px;
+  float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
